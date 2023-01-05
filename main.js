@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 // #region GAME LOGIC AND DATA
 
 // DATA
@@ -136,7 +138,7 @@ function setPlayer(event) {
 
 function changePlayer() {
   document.getElementById("player-form").classList.remove("hidden")
-  document.getElementById("game")?.classList.add("hidden")
+  document.getElementById("game").classList.add("hidden")
 }
 
 function savePlayers() {
